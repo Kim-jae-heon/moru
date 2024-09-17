@@ -1,0 +1,36 @@
+.background-color {
+  background: linear-gradient(180deg, rgba(185,222,215,1) 50%, rgba(173,214,208,1) 100%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/public/result1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.container > h1 {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.container > textarea {
+  grid-column: 1 / -1;
+  border: none;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  resize: none;
+  background-color: transparent;
+  justify-self: center;
+}
+
+.container > textarea:focus {
+  outline: none;
+}
