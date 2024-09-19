@@ -31,7 +31,7 @@ export default function Main() {
         >
           <img
             height="100%"
-            src="/temp1.jpg"
+            src={`${process.env.PUBLIC_URL}/temp1.jpg`}
             style={{ objectFit: "contain" }}
             width="100%"
           />
@@ -54,7 +54,7 @@ export default function Main() {
           </p>
           <p className="bounce">↓</p>
           <img
-            src="/main1.png"
+            src={`${process.env.PUBLIC_URL}/main1.png`}
             style={{ objectFit: "contain" }}
             width="100%"
             onClick={handleMoveSolvation}

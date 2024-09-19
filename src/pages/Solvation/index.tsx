@@ -47,7 +47,7 @@ export default function Solvation() {
       <img
         alt="고민"
         height="100%"
-        src="/stress.png"
+        src={`${process.env.PUBLIC_URL}/stress.png`}
         style={{
           objectFit: "cover",
           opacity: 0.3,
