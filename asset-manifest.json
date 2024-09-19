@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/moru/static/css/main.7ac25ef3.css",
-    "main.js": "/moru/static/js/main.239f8ab9.js",
+    "main.js": "/moru/static/js/main.a815b0e4.js",
     "static/js/453.6c651c0a.chunk.js": "/moru/static/js/453.6c651c0a.chunk.js",
     "static/media/result1.jpg": "/moru/static/media/result1.f8b5365887ff0cf88570.jpg",
     "index.html": "/moru/index.html",
     "main.7ac25ef3.css.map": "/moru/static/css/main.7ac25ef3.css.map",
-    "main.239f8ab9.js.map": "/moru/static/js/main.239f8ab9.js.map",
+    "main.a815b0e4.js.map": "/moru/static/js/main.a815b0e4.js.map",
     "453.6c651c0a.chunk.js.map": "/moru/static/js/453.6c651c0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ac25ef3.css",
-    "static/js/main.239f8ab9.js"
+    "static/js/main.a815b0e4.js"
   ]
 }
